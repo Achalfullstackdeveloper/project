@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satynam Traders</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./allstyle.css">
+  
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <img src="https://www.wellbeingphd.com/wp-content/uploads/2017/11/Download-Kabir-Das-Ji-HD-Pic-1024x768.jpg"
+        style="height: 50px;width: 50px;border-radius:50%;margin-left:0;">
+
+      <a class="navbar-brand" href="#" data-translate="brand">Satynam Traders</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home" data-translate="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about" data-translate="about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project" data-translate="products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#shop" data-translate="order">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galleryus" data-translate="gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" data-translate="contact-us">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tel:+919130205662" data-translate="call-us">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+              </svg> Call Us
+            </a>
+          </li>
+        </ul>
+        <button id="languageToggle" class="btn btn-outline-light">हिंदी / English</button>
+      </div>
+    </div>
+  </nav>
+  <script>
+    function toggleMenu() {
+      var nav = document.getElementById('nav');
+      nav.classList.toggle('active');
+    }
+  </script>
+  <!--endnavbar-->
+  <!-- carousel -->
+  <section id="home" class="homeus">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+            <!--carouselone-->
+            <div class="carousel-item active">
+                <img src="https://t4.ftcdn.net/jpg/01/42/07/35/360_F_142073565_fSXl1rQIhFlux5ra9Z74tpuBRueFjzlE.jpg"
+                    class="d-block w-100" alt="Peanut field">
+                <div class="carousel-caption d-md-block full-overlay">
+                    <h1>
+                        <b data-translate="brand">Satynam Industries and Traders</b>
+                    </h1>
+                    <div class="intro-section">
+                        <p>
+                            <b data-translate="discover">Discover Nature's Golden Nuggets</b>
+                        </p>
+                        <ul>
+                            <b>
+                                <li data-translate="premium">Premium Quality Peanuts</li>
+                                <li data-translate="fresh">Farm-Fresh and Nutritious</li>
+                                <li data-translate="support">Supporting Local Farmers</li>
+                            </b>
+                        </ul>
+                        <a href="#project" class="cta-button" data-translate="explore">Explore Our Peanut Paradise</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--carouseltwo-->
+            <div class="carousel-item">
+                <img src="https://www.foodnavigator.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator.com/news/market-trends/peanut-shortage-what-caused-it-and-is-it-set-to-last/17376501-1-eng-GB/Peanut-shortage-What-caused-it-and-is-it-set-to-last.jpg"
+                    class="d-block w-100" alt="Peanut shortage">
+                <div class="carousel-caption d-md-block full-overlay">
+                    <h5 data-translate="peanut-rich-fiber"><b>Peanut Rich In Fibre</b></h5>
+                    <p class="slider" data-translate="raw-peanuts-fiber"><b>Raw Peanuts Are Also An Excellent Source Of Dietary Fiber.</b></p>
+                </div>
+            </div>
+
+            <!--carouselthree-->
+            <div class="carousel-item">
+                <img src="https://img.pikbest.com/wp/202345/nut-peanut-peanuts-with-different-nuts-on-top-of-each-other-black-background_9582520.jpg!w700wp"
+                    class="d-block w-100" alt="Variety of nuts">
+                <div class="carousel-caption d-md-block full-overlay">
+                    <h5 data-translate="best-peanut-sale"><b>Best Peanut and Nut sale</b></h5>
+                    <p class="slider" data-translate="peanuts-healthy-treat"><b>Peanuts Are A Healthy Treat That Is High In Protein, Fiber, And Heart-Healthy Nutrients.</b></p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://aradbranding.com/en/wp-content/uploads/2022/08/1612643705_thbt-e1660628601787.jpg"
+                    class="d-block w-100" alt="Peanut varieties">
+                <div class="carousel-caption d-md-block full-overlay">
+                    <h5 data-translate="peanut-varieties"><b>Varieties Of Peanuts And Nuts</b></h5>
+                    <p class="slider" data-translate="peanut-protein"><b>A Single One-Ounce Serving Of Raw Peanuts Provides A Whopping Seven Grams Of Protein.</b></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden" data-translate="previous">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden" data-translate="next">Next</span>
+        </button>
+    </div>
+</section>
+  <!--endcarousel-->
+<!-- list -->
+<section class="how-it-works" id="work">
+  <h2 class="section-title" data-translate="how-it-works-title">How it works</h2>
+  <h1 class="main-title" data-translate="main-title">Top it • Set it • Get it</h1>
+  <div class="steps-container">
+      <div class="step">
+          <div class="icon-container">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect>
+                  <line x1="6" y1="10" x2="18" y2="10"></line>
+              </svg>
+          </div>
+          <h3 data-translate="step-1-title">Topup & Start</h3>
+          <p data-translate="step-1-description">Just register with your basic details and top-up your peanutkbasket wallet with any pre-defined amount.</p>
+      </div>
+      <div class="step">
+          <div class="icon-container">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="9" y1="21" x2="9" y2="9"></line>
+              </svg>
+          </div>
+          <h3 data-translate="step-2-title">Set Order</h3>
+          <p data-translate="step-2-description">Create a repeat order or order anytime till midnight from a wide selection of products for all or any of your daily needs.</p>
+      </div>
+      <div class="step">
+          <div class="icon-container">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21.5 18.5h-1a4 4 0 0 0-4-4h-5a4 4 0 0 0-4 4h-1"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                  <path d="M16.5 20.5h-9"></path>
+                  <path d="M18.5 8.5l-3-3"></path>
+                  <path d="M5.5 8.5l3-3"></path>
+              </svg>
+          </div>
+          <h3 data-translate="step-3-title">We Deliver</h3>
+          <p data-translate="step-3-description">Our excellent delivery team will place your order at your doorstep. Just open your door and pick it up anytime after 7:00 am</p>
+      </div>
+  </div>
+</section>
+
+
+
+
+  <!--menu-->
+  <section id="project" class="portfolio">
+    
+      <div class="container">
+        <div class="menu text-center">
+            <h1><b data-translate="our-products">Our Products</b></h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="product-card text-center">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6607/6607674.png" alt="Peanuts">
+                    <h2 class="fw-normal" data-translate="peanuts">Peanuts</h2>
+                    <p><a class="btn order-button" href="#order" data-translate="order »">Order »</a></p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="product-card text-center">
+                    <img src="https://cdn-icons-png.flaticon.com/512/7752/7752972.png" alt="Flour">
+                    <h2 class="fw-normal" data-translate="flour">Flour</h2>
+                    <p><a class="btn order-button" href="#order" data-translate="order »">Order »</a></p>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="product-card text-center">
+                    <img src="https://static.thenounproject.com/png/3013662-200.png" alt="Peanut Oil">
+                    <h2 class="fw-normal" data-translate="peanut-oil">Peanut Oil</h2>
+                    <p><a class="btn order-button" href="#order" data-translate="order »">Order »</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <br><br>
+    <!--end menu-->
+    <div class="container">
+      <div class="main-text">
+      </div>
+      <!--variety-->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all" data-translate="all">All</button>
+        <button class="filter-btn" data-filter="peanuts" data-translate="peanuts">Peanuts</button>
+        <button class="filter-btn" data-filter="flour" data-translate="flour">Flour</button>
+        <button class="filter-btn" data-filter="oil" data-translate="peanut-oil">Peanut Oil</button>
+      </div>
+      <br><br>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4" id="product-gallery">
+        <!-- Peanuts Products -->
+        <div class="col" data-category="peanuts">
+          <div class="card shadow-sm">
+            <img src="https://5.imimg.com/data5/SH/LA/MY-37404391/roasted-peanuts-500x500.jpg" alt="White Peanuts"
+              height="360px" width="420px">
+            <div class="card-body" data-translate="order">
+              <h1 data-translate="white-peanuts">White Peanuts</h1>
+              <h2>90/-</h2>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-primary w-100 order-button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                    data-translate="order">ORDER</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-category="peanuts">
+          <div class="card shadow-sm">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58GvGHtMpLCJvMp94yaqMW70bzmwf5_l3qKpaX_tJQLRtZBUyLkZcanS4SwkWVvnZI_o&usqp=CAU"
+              alt="Peanuts" height="360px" width="420px">
+            <div class="card-body">
+              <h1 data-translate="peanuts">Peanuts</h1>
+              <h2>100/-</h2>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-primary w-100 order-button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                    data-translate="order">ORDER</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-category="peanuts">
+          <div class="card shadow-sm">
+            <img
+              src="https://image.made-in-china.com/2f0j00RIYoMPlqAdbS/China-Peanut-Big-Size-Peanut-Kernel-Red-Skin-Cheap-Price-Good-Quality.webp"
+              alt="Red Skin Peanuts" height="360px" width="420px">
+            <div class="card-body">
+              <h1 data-translate="red-skin-peanuts">Red Skin Peanuts</h1>
+              <h2>120/-</h2>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-primary w-100 order-button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                    data-translate="order">ORDER</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Continue with other products in the same pattern -->
+        <!-- Flour Products -->
+        <div class="col" data-category="flour">
+          <div class="card shadow-sm">
+            <img src="https://example.com/wheat-flour-image.jpg" alt="Wheat Flour" height="360px" width="420px">
+            <div class="card-body">
+              <h1 data-translate="wheat-flour">Wheat Flour</h1>
+              <h2>60/-</h2>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-primary w-100 order-button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                    data-translate="order">ORDER</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-category="flour">
+          <div class="card shadow-sm">
+            <img src="https://example.com/besan-flour-image.jpg" alt="Besan Flour" height="360px" width="420px">
+            <div class="card-body">
+              <h1 data-translate="besan-flour">Besan Flour</h1>
+              <h2>80/-</h2>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-primary w-100 order-button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                    data-translate="order">ORDER</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Oil Products -->
+        <div class="col" data-category="oil">
+          <div class="card shadow-sm">
+            <img src="https://example.com/peanut-oil-image.jpg" alt="Peanut Oil" height="360px" width="420px">
+            <div class="card-body">
+              <h1 data-translate="peanut-oil">Peanut Oil</h1>
+              <h2>150/-</h2>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-primary w-100 order-button" data-bs-toggle="modal" data-bs-target="#orderModal"
+                    data-translate="order">ORDER</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--endvariety-->
+
+
+  <!-- Order Modal -->
+  <section id="order" class="orderus">
+    <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="orderModalLabel" style="color: #353434; font-size:40px; text-align:center;font-weight:bolder"
+              data-translate="place-order">
+              <b>Place Your Order</b>
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="orderForm">
+              <div class="mb-3">
+                <label for="customerName" class="form-label" data-translate="name"><b>Name</b></label>
+                <input type="text" class="form-control" id="customerName" required>
+              </div>
+              <div class="mb-3">
+                <label for="customerPhone" class="form-label" data-translate="phone"><b>phone-no</b></label>
+                <input type="tel" class="form-control" id="customerPhone" required>
+              </div>
+              <div class="mb-3">
+                <label for="customerAddress" class="form-label" data-translate="address"><b>Address</b></label>
+                <textarea class="form-control" id="customerAddress" rows="3" required></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="orderDetails" class="form-label" data-translate="order-details"><b>Order Details</b></label>
+                <p id="orderDetails">
+                  <a class="single" href="tel:+919545966656">+91 9545966656</a>
+
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+              data-translate="close">Close</button>
+            <button type="button" class="btn btn-primary" id="submitOrder" data-translate="place-order">Place
+              Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end order modal-->
+
+  <!-- shop Section -->
+  <section id="shop" class="shopus">
+    <div class="shop-container">
+      <img src="https://www.icrisat.org/assets/crops/groundnut-banner.jpg" class="shop-image" alt="Peanuts">
+      <div class="shop-caption">
+        <p data-translate="carousel-text">
+          Use Roasted Peanuts To Make Your Favorite Trail Mix At Home, Or For Pure, Unadulterated, Nutty Snacking!
+        </p>
+        <a href="#project" class="cta-button" data-translate="shop-now">shop now</a>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  
+  <!--end shop -->
+  
+  <!-- About Us Section -->
+  <section id="about" class="aboutus">
+    <div class="container">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <h1 style="text-align: center;font-size:60px " data-translate="about-us-title" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: calc(1.375rem + 1.5vw);font-weight:bolder"><b>ABOUT US</b></h1>
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="https://graunuts.com/wp-content/uploads/2023/11/Nuts-G3-Peanuts.png.webp"
+            class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="300" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3" style="font-size: 40px;"
+            data-translate="commitment-title">
+            Our Commitment to Quality
+          </h1>
+          <p class="lead" data-translate="commitment-text-1">
+            At our company, we pride ourselves on offering the highest quality peanuts and nut-based products. Our
+            journey began with a passion for nutritious and delicious snacks, and we continue to uphold these values in
+            everything we do.
+          </p>
+          <p class="lead" data-translate="commitment-text-2">
+            Using only the finest ingredients, we ensure that every product meets our rigorous standards. Join us in
+            celebrating the taste and health benefits of premium peanuts.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" data-translate="learn-more">Learn
+              More</button>
+            <a href="#contact" class="btn btn-outline-secondary btn-lg px-4" data-translate="contact-us">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--endabout us-->
+  <!-- Benefits Section -->
+  <div class="container px-4 py-5" id="featured-3">
+    <div class="benefits">
+      <h2 class="pb-2 border-bottom" style="font-size: 60px;" data-translate="benefits-title">Peanuts: Small Legumes,
+        Big Benefits</h2>
+    </div>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em">
+            <use xlink:href="#collection"></use>
+          </svg>
+        </div>
+        <h3 data-translate="improve-heart-health">Improve Heart And Health</h3>
+        <p data-translate="improve-heart-health-text">Peanut reduces the risk of cardiovascular disease by 21%
+          compared to the average diet, whereas a low-fat diet reduced the risk by only 12%. The fat in peanuts comes
+          from the Protein.</p>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em">
+            <use xlink:href="#people-circle"></use>
+          </svg>
+        </div>
+        <h3 data-translate="protein-powerhouse">Protein Powerhouse</h3>
+        <p data-translate="protein-powerhouse-text">A single one-ounce serving of raw peanuts provides a whopping
+          seven grams of protein. The perfect post-workout snack, peanuts supply the protein your muscles need to
+          repair.</p>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em">
+            <use xlink:href="#toggles2"></use>
+          </svg>
+        </div>
+        <h3 data-translate="high-fiber">High In Fiber</h3>
+        <p data-translate="high-fiber-text">Peanuts excellent source of dietary fiber; they pack four grams of fiber
+          per serving, soluble and insoluble. Soluble fiber helps control blood sugar levels while insoluble fiber
+          supports the digestive system.</p>
+      </div>
+    </div>
+  </div>
+  <!--end Benefits Section -->
+  <!--gallery-->
+  <section class="gallery" id="galleryus">
+  <h1 style="text-align: center;"  data-translate="gallery"style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: calc(1.375rem + 1.5vw);font-weight:bolder"><b>Gallery</b></h1>
+ 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://5.imimg.com/data5/UR/PA/OO/SELLER-32513842/organic-red-raw-peanuts.jpg" class="card-img-top" alt="Gallery Image 1">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://img.clevup.in/25743/1617383414278_SKU-0085_0.jpg?width=600&format=webp" class="card-img-top" alt="Gallery Image 2">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://img3.exportersindia.com/product_images/bc-full/2018/11/5440069/white-peanu-1542261695-4454858.jpeg" class="card-img-top" alt="Gallery Image 3">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2023/11/364121328/LY/FW/AC/155314698/groundnut-dryers-500x500.jpeg" class="card-img-top" alt="Gallery Image 4">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2022/6/DP/DX/SY/2680177/peanut-processing-plant.jpg" class="card-img-top" alt="Gallery Image 5">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://roastline.com.tr/images/blog/6949381206306-606-202308-2918-3242-0e3dce32-b428-47c9-9fa4-df8b819d1e85_1693319562.jpeg" class="card-img-top" alt="Gallery Image 6">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://cdn.shopaccino.com/edible-smart/products/groundnut-136721_m.jpg?v=515" class="card-img-top" alt="Gallery Image 4">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2024/3/405548615/EB/LC/NI/639811/split-roasted-peanut-500x500.png" class="card-img-top" alt="Gallery Image 5">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://5.imimg.com/data5/YA/NM/MY-39695996/raw-groundnut-500x500.jpg" class="card-img-top" alt="Gallery Image 6">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!--end gallery-->
+
+  <!-- Get in Touch Section -->
+  <section id="contact" class="contactus">
+    <h1 class="text-center" data-translate="get-in-touch-title" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: calc(1.375rem + 1.5vw);font-weight:bolder"><b>GET IN TOUCH</b></h1>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-4 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                </svg>
+                <h2 class="fw-normal" data-translate="address-title">Address</h2>
+                <p>
+                    <a href="https://maps.app.goo.gl/z9A4nKSzBeRBSMrx9" data-translate="address-link">
+                        8FVH+F36, Bharsingi, Maharashtra 441305
+                    </a>
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                </svg>
+                <h2 class="fw-normal" data-translate="phone-title">Phone</h2>
+                <p>
+                    <a href="tel:+919167589330" data-translate="phone-link">+919167589330</a>
+                </p>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                </svg>
+                <h2 class="fw-normal" data-translate="email-title">Email</h2>
+                <p>
+                    <a href="mailto:satynam@123.gmail.com" data-translate="email-link">satynam@123.gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-logo">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThx5KBSLjRJ1gO9oUcVpsSAzk1XcmWxmL8sA&s"
+            alt="Company Logo" height="200px" style="margin-left: 70px; border-radius:50%;width: 200px;"><br><br>
+          <p data-translate="footer-description" style="color: #ddd;">Your trusted partner in quality products. Our
+            commitment is to deliver the best to our customers.</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="footer-heading" data-translate="quick-links" >Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#home" data-translate="home">Home</a></li><br>
+            <li><a href="#about" data-translate="about-us">About Us</a></li><br>
+            <li><a href="#project" data-translate="products">Products</a></li><br>
+            <li><a href="#contact" data-translate="contact">Contact</a></li><br>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="footer-heading" data-translate="contact-us">Contact Us</h5>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-geo-alt-fill"></i> <a
+                href="https://maps.app.goo.gl/z9A4nKSzBeRBSMrx9" style="color: #eeebeb;"
+                data-translate="address-link">8FVH+F36,Rohana, Maharashtra 441305</a></li><br>
+            <li><i class="bi bi-telephone-fill"></i> <a href="tel:+123456789" data-translate="phone">+123 456 789</a>
+            </li><br>
+            <li><i class="bi bi-envelope"></i> <a href="mailto:satynam@gmail.com"
+                data-translate="mail">satynam@gmail.com</a></li><br>
+          </ul>
+          <h5 class="footer-heading" data-translate="follow-us">Follow Us</h5>
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
+      <p class="text-center mb-0" style="color: #ddd;" data-translate="copyright"> Satynam Industries and Traders. All
+        Rights Reserved.</p>
+    </div>
+  </footer>
+  </div>
+  
+  <!-- end Footer -->
+  <!-- Bootstrap and Icons -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
