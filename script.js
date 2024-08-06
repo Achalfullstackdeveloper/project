@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const translations = {
 
     en: {
-      'brand': 'Satynam Industries and Traders',
+      'brand': 'Satynaam Traders and Industries',
       'discover': 'Discover Nature\'s Golden Nuggets',
       'premium': 'Premium Quality Peanuts',
       'fresh': 'Farm-Fresh and Nutritious',
@@ -122,11 +122,19 @@ document.addEventListener('DOMContentLoaded', function () {
       'phone': '+123 456 789',
       'email': 'satynam@gmail.com',
       'follow-us': 'Follow Us',
-      'copyright': ' Satynam Industries and Traders. All Rights Reserved.',
-      'gallery':'Gallery'
+      'copyright': ' Satynaam Traders and  Industries. All Rights Reserved.',
+      'gallery':'Gallery',
+      "white-peanuts": "White Peanuts",
+    "peanuts": "Peanuts",
+    "red-skin-peanuts": "Red Skin Peanuts",
+    "wheat-flour": "Wheat Flour",
+    "besan-flour": "Besan Flour",
+    "peanut-oil": "Peanut Oil",
+    "order": "ORDER",
+    "switch-language": "Switch to Hindi"
     },
     hi: {
-      'brand': 'सत्यनम इंडस्ट्रीज एंड ट्रेडर्स',
+      'brand': 'सत्यनाम ट्रेडर्स  एंड इंडस्ट्रीज ',
       'discover': 'प्रकृति के सुनहरे टुकड़े खोजें',
       'premium': 'उच्च गुणवत्ता वाली मूंगफली',
       'fresh': 'खेत से ताजा और पौष्टिक',
@@ -199,8 +207,15 @@ document.addEventListener('DOMContentLoaded', function () {
       'phone': '+१२३ ४५६ ७८९',
       'email': 'satynam@gmail.com',
       'follow-us': 'हमें फॉलो करें',
-      'copyright': 'सत्या नाम इंडस्ट्रीज और ट्रेडर्स। सर्वाधिकार सुरक्षित।',
-      'gallery':'गैलरी'
+      'copyright': 'सत्यनाम ट्रेडर्स  एंड इंडस्ट्रीज । सर्वाधिकार सुरक्षित।',
+      'gallery':'गैलरी',
+      "white-peanuts": "सफेद मूंगफली",
+    "peanuts": "मूंगफली",
+    "red-skin-peanuts": "लाल छिलके वाली मूंगफली",
+    "wheat-flour": "गेहूं का आटा",
+    "besan-flour": "बेसन",
+    "peanut-oil": "मूंगफली का तेल",
+    "order": "ऑर्डर करें",
     }
 
 
