@@ -49,7 +49,7 @@ body {
 }
 .bg-dark {
   --bs-bg-opacity: 0.3;
-  background-color: rgb(150, 65, 22) !important;
+  background-color:  rgb(150, 65, 22) !important;
 }
 
 /*order*/
@@ -573,7 +573,7 @@ h3 {
 }
 /*footer*/
 .footer {
-  background-color: #131212;
+  background-color:#131212;
   color: white;
   padding: 40px 0;
   font-size: 14px;
